@@ -84,6 +84,7 @@ body  {
     background-color: #0D0D0D;
     color :#F2F2F2;
     overflow-x: hidden; 
+   
     
 }
 
@@ -94,7 +95,7 @@ body  {
     margin-bottom: 10px;
     color: white;
     border-radius: 20px;
-    height: 80vh;
+    height: 86.7vh;
     width: 45%;
     padding: 8px;
     text-align: center;
@@ -106,6 +107,7 @@ body  {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: 2%;
 }
 
 .container1 h4{
@@ -113,7 +115,6 @@ body  {
     font-size:24px;
     line-height:60px;
     font-family:sans-serif;
-  
 }
 
 .container1 h1 {
@@ -128,7 +129,7 @@ body  {
     animation: 1.5s ease-out introContainer23;
     float: right;
     margin-top: 2%;
-    height: 34vh;
+    height: 28vh;
     width: 45%;
     margin-right: 2%;
     background: linear-gradient(to right, #a543eb 20%, #c07ff8 80%);
@@ -146,61 +147,81 @@ body  {
 
 .container2 h3{
     padding-top:25px;
+    padding-left: 10px;
 }
 
 .container2 h4{
     border-bottom:2px solid #74B1EA;
     height:23px;
+    display:inline;
 }
-
+.sub-container{
+   padding-left: 40px;
+}
 #mando{
-    padding-top:10px;
-    width:55px;
-    margin:auto;
+    padding-top:15px;
+    height:16px;
 }
 
 #potencia{
-    padding-top:20px;
-    width:70px;
-    margin:auto;
+    padding-top:15px;
+    height:16px;
 }
 
 .container2 p{
-    padding-top:20px;
-    text-align:center;
-    line-height:30px;
+    padding-top:10px;
+    text-align:start;
+    line-height:28px;
 }
 
 .container3 {
-    overflow-y:hidden;
     cursor:default;
     animation: 1.5s ease-out introContainer23;
     float: right;
     width: 45%;
-    height: 42.5vh;
+    height: 55.09vh;
     margin-top: 1%;
     margin-right: 2%;
     background: #74B1EA  ;
     background: linear-gradient(to right,#74B1EA   20%, #4FCDE9 80%);
     border-radius: 20px;
     font-family: sans-serif;
+    margin-bottom: 2%;
 }
 
 .container3 h2{
     padding-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
-    border-bottom:2px solid #a543eb;
     text-align: center;
     margin:auto;
     width:330px;
+    border-bottom: 2px solid #a543eb;
 }
 
-.container3 h4{
-    margin-top: 10px;
+.container3 h4 {
     font-size:16px;
-    line-height:30px;
-    text-align:center;
+    line-height:29px;
+    height:22px
 }
+
+#mando_2 {
+    display:inline;
+    border-bottom: 2px solid #a543eb;
+}
+
+#potencia_2 {
+    margin-top:10px;
+    display:inline-block;
+    border-bottom: 2px solid #a543eb;
+}
+
+.container3 p {
+    padding-top:10px;
+    text-align:start;
+    line-height:22px;
+}
+
+
 
 div{
 overflow: auto;
@@ -245,3 +266,37 @@ padding:8px;
         opacity:100;
     }
 }
+
+.ul-1 , .ul-2 {
+    list-style: none;
+  }
+  
+  .ul-1 li::before {
+    content: "\2022";
+    color: #74B1EA;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
+.ul-2  .sub-li-of-ul-2  ::before{
+    content: "\2022";
+    color:#a543eb;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.li-2{
+    color:#a543eb;
+}
+.li-2 h4,p{
+color: white;
+}
+
+.sub-container ol {
+    margin-left: 25px;
+}  
