@@ -1,5 +1,5 @@
-# Hi
+# Hola
 
-- Taller v1 = orange theme (without animations)
+- Taller v1 = tema naranja (sin animaciones)
 
-- Taller v2 = purple theme (with animations)
+- Taller v2 = tema violeta (con animaciones)
