@@ -14,3 +14,6 @@
 - Version Sin terminar : [Taller v2 = tema naranja (sin animaciones)](https://valentinzoia.github.io/44huergo.github.io/taller-v1/index-html/)
 <br>
 <img src='./taller-1.png' />
+<img src='./taller-2.png' />
+<img src='./taller-3.png' />
+<img src='./taller-4.png' />
